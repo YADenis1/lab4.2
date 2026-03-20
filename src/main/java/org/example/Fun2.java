@@ -23,6 +23,6 @@ public class Fun2 implements MathFunction{
 
     @Override
     public double calculate(double num) {
-        return A*sin(B*num);
+        return 3*sin(num);
     }
 }

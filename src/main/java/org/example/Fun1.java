@@ -4,6 +4,7 @@ public class Fun1 implements MathFunction{
     private final double A;
     private final double B;
 
+
     Fun1(double A, double B){
         this.A = A;
         this.B = B;
@@ -21,6 +22,6 @@ public class Fun1 implements MathFunction{
 
     @Override
     public double calculate(double num) {
-        return A*num+B;
+        return 2*num+1;
     }
 }

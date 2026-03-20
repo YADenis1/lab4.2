@@ -5,14 +5,10 @@ import static java.lang.Math.sin;
 public class Fun3 implements MathFunction{
     private final double A;
     private final double B;
-    private final double C;
-    private final double D;
 
-    Fun3(double A, double B, double C, double D){
+    Fun3(double A, double B){
         this.A = A;
         this.B = B;
-        this.C = C;
-        this.D = D;
     }
 
     @Override
@@ -24,17 +20,8 @@ public class Fun3 implements MathFunction{
     public double getB() {
         return B;
     }
-
-    public double getC() {
-        return C;
-    }
-
-    public double getD() {
-        return D;
-    }
-
     @Override
     public double calculate(double num) {
-        return (A/num+B)/(C*num+D);
+        return (2/num+3)/(1*num+2);
     }
 }

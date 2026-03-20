@@ -22,6 +22,6 @@ public class Fun4 implements MathFunction{
 
     @Override
     public double calculate(double num) {
-        return (A*exp(num)+B);
+        return (1*exp(num)+3);
     }
 }
